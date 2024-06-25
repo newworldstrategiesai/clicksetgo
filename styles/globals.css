@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+
+body {
+  @apply bg-gray-100 text-black antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-gray-900 font-bold;
+}
+
+p {
+  @apply text-gray-700;
+}
+
+a {
+  @apply text-blue-500 hover:text-blue-700;
+}
+
+button {
+  @apply bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700;
+}
+
+input {
+  @apply border border-gray-400 rounded p-2;
+}
+
+input:focus {
+  @apply outline-none ring-2 ring-blue-500;
+}
+
+/* Custom styles for chat application */
+#contacts li {
+  @apply p-2 bg-gray-100 hover:bg-gray-200 cursor-pointer rounded;
+}
+
+#chat div {
+  @apply p-2 mb-2 rounded;
+}
+
+#contact-info p {
+  @apply text-gray-800;
+}
+
+#message-form input {
+  @apply flex-grow p-2 border border-gray-400 rounded-l;
+}
+
+#message-form button {
+  @apply bg-blue-500 text-white p-2 rounded-r;
+}
+
+.bg-gray-100 {
+  @apply bg-gray-100;
+}
+
+.bg-gray-200 {
+  @apply bg-gray-200;
+}
+
+.bg-gray-300 {
+  @apply bg-gray-300;
+}
+
+.bg-gray-400 {
+  @apply bg-gray-400;
+}
+
+.bg-gray-500 {
+  @apply bg-gray-500;
+}
+
+.bg-gray-600 {
+  @apply bg-gray-600;
+}
+
+.bg-gray-700 {
+  @apply bg-gray-700;
+}
+
+.bg-gray-800 {
+  @apply bg-gray-800;
+}
+
+.bg-gray-900 {
+  @apply bg-gray-900;
+}
