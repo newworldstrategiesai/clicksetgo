@@ -50,6 +50,7 @@ typings/
 
 # dotenv environment variables file
 .env
+
 .env.local
 
 
@@ -83,3 +84,5 @@ public/
 # Project directories
 .vscode/
 .idea/
+.env
+.env.local
